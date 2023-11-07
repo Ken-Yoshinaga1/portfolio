@@ -1,0 +1,77 @@
+/*ヘッダーの設定*/
+.headline>a {
+    background-color: rgb(218, 255, 223);
+    width: 100%;
+    margin: 0auto;
+
+
+}
+
+/*ボディの設定*/
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+/*フッターの設定*/
+footer {
+    background-color: azure;
+}
+
+/*ヘッダータイトル*/
+.headline>a {
+
+    font-size: 50px;
+    text-decoration: none;
+    font-family: serif;
+}
+
+ul {
+    /* liを使用時の冒頭の点を消す*/
+    list-style: none;
+
+}
+
+
+.nav-list a {
+
+    /* リンクの下線を消す */
+    text-decoration: none;
+}
+
+/*リストの文字サイズ*/
+.nav-list {
+    font-size: 10px;
+}
+
+/*リンクにマウスを当てている時*/
+a:hover {
+    color: black;
+}
+
+/*リンクをクリック後*/
+a:visited {
+
+    color: black;
+}
+
+
+/*boostrapフォーム設定*/
+.form-group form-control {
+    color: black;
+}
+
+.nav-list-item {
+    font-size: 20px;
+}
+
+a {
+    /* リンクの色 */
+    color: black;
+}
+
+summary {
+    /* リストの三角形を消す */
+    list-style: none;
+}
