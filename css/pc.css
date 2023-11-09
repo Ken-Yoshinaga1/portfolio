@@ -1,6 +1,6 @@
 /*ヘッダーの設定*/
 .headline>a {
-    background-color: rgb(218, 255, 223);
+
     width: 100%;
     margin: 0auto;
 
@@ -74,4 +74,10 @@ a {
 summary {
     /* リストの三角形を消す */
     list-style: none;
+    font-family: no;
+    font-size: 25px;
+}
+
+img {
+    width: 30%;
 }
