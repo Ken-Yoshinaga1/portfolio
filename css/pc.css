@@ -23,6 +23,7 @@ footer {
     background-color: azure;
 }
 
+
 ul {
     /* liを使用時の冒頭の点を消す*/
     list-style: none;
@@ -30,7 +31,7 @@ ul {
 }
 
 
-.nav-list a {
+a {
 
     /* リンクの下線を消す */
     text-decoration: none;
@@ -75,6 +76,10 @@ img {
     display: block;
 }
 
-.nav-list>li {
+.headerlist>a {
     margin-right: 50px;
+}
+
+.headerlist {
+    font-size: 20px;
 }
