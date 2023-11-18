@@ -4,8 +4,12 @@
     width: 100%;
     margin: 0auto;
 
+    font-size: 50px;
+    text-decoration: none;
+    font-family: serif;
 
 }
+
 
 /*ボディの設定*/
 body {
@@ -17,14 +21,6 @@ body {
 /*フッターの設定*/
 footer {
     background-color: azure;
-}
-
-/*ヘッダータイトル*/
-.headline>a {
-
-    font-size: 50px;
-    text-decoration: none;
-    font-family: serif;
 }
 
 ul {
@@ -42,7 +38,8 @@ ul {
 
 /*リストの文字サイズ*/
 .nav-list {
-    font-size: 10px;
+    display: flex;
+    font-size: 20px;
 }
 
 /*リンクにマウスを当てている時*/
@@ -71,13 +68,13 @@ a {
     color: black;
 }
 
-summary {
-    /* リストの三角形を消す */
-    list-style: none;
-    font-family: no;
-    font-size: 25px;
-}
+
 
 img {
     width: 30%;
+    display: block;
+}
+
+.nav-list>li {
+    margin-right: 50px;
 }
